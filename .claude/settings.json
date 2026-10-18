@@ -1,6 +1,13 @@
 {
   "permissions": {
     "allow": ["mcp__Noggin-Sandbox__sandbox_merge_pull_request"],
-    "deny": ["Bash(gh pr merge *)", "Bash(tea pr merge *)"]
+    "deny": [
+      "Bash(gh pr merge *)",
+      "Bash(tea pr merge *)",
+      "mcp__claude-code-remote",
+      "mcp__github",
+      "mcp__ccd_session",
+      "mcp__ccd-session"
+    ]
   }
 }
