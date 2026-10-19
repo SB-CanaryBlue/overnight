@@ -4,6 +4,9 @@
     "deny": [
       "Bash(gh pr merge *)",
       "Bash(tea pr merge *)",
+      "Bash",
+      "WebFetch",
+      "WebSearch",
       "mcp__claude-code-remote",
       "mcp__github",
       "mcp__ccd_session",
